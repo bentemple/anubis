@@ -34,6 +34,8 @@ github.com/ProtonMail/gopenpgp/v2 v2.7.1 h1:Awsg7MPc2gD3I7IFac2qE3Gdls0lZW8SzrFZ
 github.com/ProtonMail/gopenpgp/v2 v2.7.1/go.mod h1:/BU5gfAVwqyd8EfC3Eu7zmuhwYQpKs+cGD8M//iiaxs=
 github.com/Songmu/gitconfig v0.2.0 h1:pX2++u4KUq+K2k/ZCzGXLtkD3ceCqIdi0tDyb+IbSyo=
 github.com/Songmu/gitconfig v0.2.0/go.mod h1:cB5bYJer+pl7W8g6RHFwL/0X6aJROVrYuHlvc7PT+hE=
+github.com/TecharoHQ/anubis v1.21.3 h1:AFnLQkxjKzgK2SxuCa5Sp78fFl4NrT0WEvt1mXjBg9k=
+github.com/TecharoHQ/anubis v1.21.3/go.mod h1:MSA2irRy8Mk5OgVZVy1Yw9ArvblZgyIdG+tl6AeGGJM=
 github.com/TecharoHQ/thoth-proto v0.4.0 h1:UbkvfgCku0Dm1R6O4ug3HOsJNnE6F3wB8x+Dpw2lzFI=
 github.com/TecharoHQ/thoth-proto v0.4.0/go.mod h1:IcGnZt3iYUZQVEa0Lwk5l4ix0hCeXlWUV1TJMZvbWx0=
 github.com/TecharoHQ/yeet v0.6.0 h1:RCBAjr7wIlllsgy0tpvWpLX7jsZgu2tiuBY3RrprcR0=
