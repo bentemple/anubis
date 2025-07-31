@@ -10,8 +10,6 @@ yarn.lock
 main
 *.test
 
-node_modules
-
 # MacOS
 .DS_store
 
