@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/TecharoHQ/anubis/lib/challenge"
-	"github.com/TecharoHQ/anubis/lib/policy"
-	"github.com/TecharoHQ/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/lib/challenge"
+	"github.com/bentemple/anubis/lib/policy"
+	"github.com/bentemple/anubis/lib/policy/config"
 )
 
 func mkRequest(t *testing.T, values map[string]string) *http.Request {

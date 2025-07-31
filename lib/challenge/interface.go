@@ -6,10 +6,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/TecharoHQ/anubis/lib/policy"
-	"github.com/TecharoHQ/anubis/lib/policy/config"
-	"github.com/TecharoHQ/anubis/lib/store"
 	"github.com/a-h/templ"
+	"github.com/bentemple/anubis/lib/policy"
+	"github.com/bentemple/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/lib/store"
 )
 
 var (

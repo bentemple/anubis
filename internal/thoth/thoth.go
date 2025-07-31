@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/TecharoHQ/anubis"
 	iptoasnv1 "github.com/TecharoHQ/thoth-proto/gen/techaro/thoth/iptoasn/v1"
+	"github.com/bentemple/anubis"
 	grpcprom "github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus"
 	"github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/timeout"
 	"github.com/prometheus/client_golang/prometheus"

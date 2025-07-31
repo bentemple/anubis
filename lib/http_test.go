@@ -4,7 +4,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/TecharoHQ/anubis"
+	"github.com/bentemple/anubis"
 )
 
 func TestSetCookie(t *testing.T) {

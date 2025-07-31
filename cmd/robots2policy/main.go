@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/TecharoHQ/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/lib/policy/config"
 
 	"sigs.k8s.io/yaml"
 )

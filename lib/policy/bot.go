@@ -3,9 +3,9 @@ package policy
 import (
 	"fmt"
 
-	"github.com/TecharoHQ/anubis/internal"
-	"github.com/TecharoHQ/anubis/lib/policy/checker"
-	"github.com/TecharoHQ/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/internal"
+	"github.com/bentemple/anubis/lib/policy/checker"
+	"github.com/bentemple/anubis/lib/policy/config"
 )
 
 type Bot struct {

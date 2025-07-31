@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TecharoHQ/anubis/lib/policy/config"
-	"github.com/TecharoHQ/anubis/lib/store/memory"
+	"github.com/bentemple/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/lib/store/memory"
 )
 
 func TestNewOGTagCache(t *testing.T) {

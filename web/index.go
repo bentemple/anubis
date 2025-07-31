@@ -3,8 +3,8 @@ package web
 import (
 	"github.com/a-h/templ"
 
-	"github.com/TecharoHQ/anubis/lib/localization"
-	"github.com/TecharoHQ/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/lib/localization"
+	"github.com/bentemple/anubis/lib/policy/config"
 )
 
 func Base(title string, body templ.Component, impressum *config.Impressum, localizer *localization.SimpleLocalizer) templ.Component {

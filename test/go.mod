@@ -1,11 +1,11 @@
-module github.com/TecharoHQ/anubis/test
+module github.com/bentemple/anubis/test
 
 go 1.24.2
 
 replace github.com/TecharoHQ/anubis => ..
 
 require (
-	github.com/TecharoHQ/anubis v1.19.1
+	github.com/TecharoHQ/anubis v1.21.3
 	github.com/facebookgo/flagenv v0.0.0-20160425205200-fcd59fca7456
 	github.com/google/uuid v1.6.0
 )

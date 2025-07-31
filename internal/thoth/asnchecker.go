@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TecharoHQ/anubis/internal"
-	"github.com/TecharoHQ/anubis/lib/policy/checker"
 	iptoasnv1 "github.com/TecharoHQ/thoth-proto/gen/techaro/thoth/iptoasn/v1"
+	"github.com/bentemple/anubis/internal"
+	"github.com/bentemple/anubis/lib/policy/checker"
 )
 
 func (c *Client) ASNCheckerFor(asns []uint32) checker.Impl {

@@ -7,7 +7,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/TecharoHQ/anubis/lib/store"
+	"github.com/bentemple/anubis/lib/store"
 	"go.etcd.io/bbolt"
 )
 

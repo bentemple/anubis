@@ -22,21 +22,21 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/TecharoHQ/anubis"
-	"github.com/TecharoHQ/anubis/decaymap"
-	"github.com/TecharoHQ/anubis/internal"
-	"github.com/TecharoHQ/anubis/internal/dnsbl"
-	"github.com/TecharoHQ/anubis/internal/ogtags"
-	"github.com/TecharoHQ/anubis/lib/challenge"
-	"github.com/TecharoHQ/anubis/lib/localization"
-	"github.com/TecharoHQ/anubis/lib/policy"
-	"github.com/TecharoHQ/anubis/lib/policy/checker"
-	"github.com/TecharoHQ/anubis/lib/policy/config"
-	"github.com/TecharoHQ/anubis/lib/store"
+	"github.com/bentemple/anubis"
+	"github.com/bentemple/anubis/decaymap"
+	"github.com/bentemple/anubis/internal"
+	"github.com/bentemple/anubis/internal/dnsbl"
+	"github.com/bentemple/anubis/internal/ogtags"
+	"github.com/bentemple/anubis/lib/challenge"
+	"github.com/bentemple/anubis/lib/localization"
+	"github.com/bentemple/anubis/lib/policy"
+	"github.com/bentemple/anubis/lib/policy/checker"
+	"github.com/bentemple/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/lib/store"
 
 	// challenge implementations
-	_ "github.com/TecharoHQ/anubis/lib/challenge/metarefresh"
-	_ "github.com/TecharoHQ/anubis/lib/challenge/proofofwork"
+	_ "github.com/bentemple/anubis/lib/challenge/metarefresh"
+	_ "github.com/bentemple/anubis/lib/challenge/proofofwork"
 )
 
 var (

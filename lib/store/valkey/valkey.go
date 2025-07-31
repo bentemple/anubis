@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/TecharoHQ/anubis/lib/store"
+	"github.com/bentemple/anubis/lib/store"
 	valkey "github.com/redis/go-redis/v9"
 )
 

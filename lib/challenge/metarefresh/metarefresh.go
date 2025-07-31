@@ -6,11 +6,11 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/TecharoHQ/anubis"
-	"github.com/TecharoHQ/anubis/lib/challenge"
-	"github.com/TecharoHQ/anubis/lib/localization"
-	"github.com/TecharoHQ/anubis/web"
 	"github.com/a-h/templ"
+	"github.com/bentemple/anubis"
+	"github.com/bentemple/anubis/lib/challenge"
+	"github.com/bentemple/anubis/lib/localization"
+	"github.com/bentemple/anubis/web"
 )
 
 //go:generate go tool github.com/a-h/templ/cmd/templ generate

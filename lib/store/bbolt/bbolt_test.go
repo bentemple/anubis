@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/TecharoHQ/anubis/lib/store/storetest"
+	"github.com/bentemple/anubis/lib/store/storetest"
 )
 
 func TestImpl(t *testing.T) {

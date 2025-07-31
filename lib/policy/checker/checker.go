@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/TecharoHQ/anubis/internal"
+	"github.com/bentemple/anubis/internal"
 )
 
 type Impl interface {

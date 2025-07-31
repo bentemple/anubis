@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TecharoHQ/anubis/lib/store"
-	"github.com/TecharoHQ/anubis/lib/store/memory"
+	"github.com/bentemple/anubis/lib/store"
+	"github.com/bentemple/anubis/lib/store/memory"
 )
 
 func TestJSON(t *testing.T) {

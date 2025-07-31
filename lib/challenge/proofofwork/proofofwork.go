@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/TecharoHQ/anubis/internal"
-	chall "github.com/TecharoHQ/anubis/lib/challenge"
-	"github.com/TecharoHQ/anubis/lib/localization"
-	"github.com/TecharoHQ/anubis/web"
 	"github.com/a-h/templ"
+	"github.com/bentemple/anubis/internal"
+	chall "github.com/bentemple/anubis/lib/challenge"
+	"github.com/bentemple/anubis/lib/localization"
+	"github.com/bentemple/anubis/web"
 )
 
 func init() {

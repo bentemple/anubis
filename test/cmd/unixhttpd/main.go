@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/TecharoHQ/anubis/internal"
+	"github.com/bentemple/anubis/internal"
 	"github.com/facebookgo/flagenv"
 )
 

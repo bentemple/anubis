@@ -27,8 +27,8 @@ lint: assets
 	$(GO) tool govulncheck ./...
 
 prebaked-build:
-	$(GO) build -o ./var/anubis -ldflags "-X 'github.com/TecharoHQ/anubis.Version=$(VERSION)'" ./cmd/anubis
-	$(GO) build -o ./var/robots2policy -ldflags "-X 'github.com/TecharoHQ/anubis.Version=$(VERSION)'" ./cmd/robots2policy
+	$(GO) build -o ./var/anubis -ldflags "-X 'github.com/bentemple/anubis.Version=$(VERSION)'" ./cmd/anubis
+	$(GO) build -o ./var/robots2policy -ldflags "-X 'github.com/bentemple/anubis.Version=$(VERSION)'" ./cmd/robots2policy
 
 test: assets
 	$(GO) test ./...

@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/TecharoHQ/anubis/internal"
-	"github.com/TecharoHQ/anubis/lib/policy/checker"
+	"github.com/bentemple/anubis/internal"
+	"github.com/bentemple/anubis/lib/policy/checker"
 	"github.com/gaissmai/bart"
 )
 

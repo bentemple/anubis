@@ -4,7 +4,7 @@
 package all
 
 import (
-	_ "github.com/TecharoHQ/anubis/lib/store/bbolt"
-	_ "github.com/TecharoHQ/anubis/lib/store/memory"
-	_ "github.com/TecharoHQ/anubis/lib/store/valkey"
+	_ "github.com/bentemple/anubis/lib/store/bbolt"
+	_ "github.com/bentemple/anubis/lib/store/memory"
+	_ "github.com/bentemple/anubis/lib/store/valkey"
 )

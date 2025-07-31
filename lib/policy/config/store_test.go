@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/TecharoHQ/anubis/lib/policy/config"
-	"github.com/TecharoHQ/anubis/lib/store/bbolt"
-	"github.com/TecharoHQ/anubis/lib/store/valkey"
+	"github.com/bentemple/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/lib/store/bbolt"
+	"github.com/bentemple/anubis/lib/store/valkey"
 )
 
 func TestStoreValid(t *testing.T) {

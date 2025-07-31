@@ -5,9 +5,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/TecharoHQ/anubis/internal/thoth"
-	"github.com/TecharoHQ/anubis/lib/policy/checker"
 	iptoasnv1 "github.com/TecharoHQ/thoth-proto/gen/techaro/thoth/iptoasn/v1"
+	"github.com/bentemple/anubis/internal/thoth"
+	"github.com/bentemple/anubis/lib/policy/checker"
 )
 
 var _ checker.Impl = &thoth.ASNChecker{}

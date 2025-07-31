@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TecharoHQ/anubis/internal"
+	"github.com/bentemple/anubis/internal"
 	"github.com/facebookgo/flagenv"
 	"github.com/google/uuid"
 )

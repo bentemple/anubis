@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/TecharoHQ/anubis/internal"
-	"github.com/TecharoHQ/anubis/lib/policy/config"
-	"github.com/TecharoHQ/anubis/lib/policy/expressions"
+	"github.com/bentemple/anubis/internal"
+	"github.com/bentemple/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/lib/policy/expressions"
 	"github.com/google/cel-go/cel"
 	"github.com/google/cel-go/common/types"
 )

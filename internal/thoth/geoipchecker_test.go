@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/TecharoHQ/anubis/internal/thoth"
-	"github.com/TecharoHQ/anubis/lib/policy/checker"
+	"github.com/bentemple/anubis/internal/thoth"
+	"github.com/bentemple/anubis/lib/policy/checker"
 )
 
 var _ checker.Impl = &thoth.GeoIPChecker{}

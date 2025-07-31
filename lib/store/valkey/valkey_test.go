@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/TecharoHQ/anubis/internal"
-	"github.com/TecharoHQ/anubis/lib/store/storetest"
+	"github.com/bentemple/anubis/internal"
+	"github.com/bentemple/anubis/lib/store/storetest"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 )

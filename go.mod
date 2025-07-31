@@ -3,7 +3,6 @@ module github.com/bentemple/anubis
 go 1.24.2
 
 require (
-	github.com/TecharoHQ/anubis v1.21.3
 	github.com/TecharoHQ/thoth-proto v0.4.0
 	github.com/a-h/templ v0.3.906
 	github.com/cespare/xxhash/v2 v2.3.0

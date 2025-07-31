@@ -11,8 +11,8 @@ import templruntime "github.com/a-h/templ/runtime"
 import (
 	"fmt"
 
-	"github.com/TecharoHQ/anubis"
-	"github.com/TecharoHQ/anubis/lib/localization"
+	"github.com/bentemple/anubis"
+	"github.com/bentemple/anubis/lib/localization"
 )
 
 func page(redir string, difficulty int, loc *localization.SimpleLocalizer) templ.Component {

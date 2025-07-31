@@ -8,14 +8,14 @@ import (
 	"log/slog"
 	"sync/atomic"
 
-	"github.com/TecharoHQ/anubis/internal/thoth"
-	"github.com/TecharoHQ/anubis/lib/policy/checker"
-	"github.com/TecharoHQ/anubis/lib/policy/config"
-	"github.com/TecharoHQ/anubis/lib/store"
+	"github.com/bentemple/anubis/internal/thoth"
+	"github.com/bentemple/anubis/lib/policy/checker"
+	"github.com/bentemple/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/lib/store"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	_ "github.com/TecharoHQ/anubis/lib/store/all"
+	_ "github.com/bentemple/anubis/lib/store/all"
 )
 
 var (

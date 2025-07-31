@@ -13,17 +13,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TecharoHQ/anubis"
-	"github.com/TecharoHQ/anubis/data"
-	"github.com/TecharoHQ/anubis/internal"
-	"github.com/TecharoHQ/anubis/internal/ogtags"
-	"github.com/TecharoHQ/anubis/lib/challenge"
-	"github.com/TecharoHQ/anubis/lib/localization"
-	"github.com/TecharoHQ/anubis/lib/policy"
-	"github.com/TecharoHQ/anubis/lib/policy/config"
-	"github.com/TecharoHQ/anubis/web"
-	"github.com/TecharoHQ/anubis/xess"
 	"github.com/a-h/templ"
+	"github.com/bentemple/anubis"
+	"github.com/bentemple/anubis/data"
+	"github.com/bentemple/anubis/internal"
+	"github.com/bentemple/anubis/internal/ogtags"
+	"github.com/bentemple/anubis/lib/challenge"
+	"github.com/bentemple/anubis/lib/localization"
+	"github.com/bentemple/anubis/lib/policy"
+	"github.com/bentemple/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/web"
+	"github.com/bentemple/anubis/xess"
 )
 
 type Options struct {

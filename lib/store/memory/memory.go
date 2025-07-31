@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/TecharoHQ/anubis/decaymap"
-	"github.com/TecharoHQ/anubis/lib/store"
+	"github.com/bentemple/anubis/decaymap"
+	"github.com/bentemple/anubis/lib/store"
 )
 
 type factory struct{}

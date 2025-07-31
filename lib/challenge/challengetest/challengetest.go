@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TecharoHQ/anubis/internal"
-	"github.com/TecharoHQ/anubis/lib/challenge"
+	"github.com/bentemple/anubis/internal"
+	"github.com/bentemple/anubis/lib/challenge"
 	"github.com/google/uuid"
 )
 

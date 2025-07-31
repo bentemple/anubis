@@ -1,8 +1,8 @@
 package policy
 
 import (
-	"github.com/TecharoHQ/anubis/lib/policy/config"
-	"github.com/TecharoHQ/anubis/lib/policy/expressions"
+	"github.com/bentemple/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/lib/policy/expressions"
 	"github.com/google/cel-go/cel"
 )
 

@@ -10,10 +10,10 @@ import templruntime "github.com/a-h/templ/runtime"
 
 import (
 	"fmt"
-	"github.com/TecharoHQ/anubis"
-	"github.com/TecharoHQ/anubis/lib/localization"
-	"github.com/TecharoHQ/anubis/lib/policy/config"
-	"github.com/TecharoHQ/anubis/xess"
+	"github.com/bentemple/anubis"
+	"github.com/bentemple/anubis/lib/localization"
+	"github.com/bentemple/anubis/lib/policy/config"
+	"github.com/bentemple/anubis/xess"
 )
 
 func base(title string, body templ.Component, impressum *config.Impressum, challenge any, ogTags map[string]string, localizer *localization.SimpleLocalizer) templ.Component {
