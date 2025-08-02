@@ -7,7 +7,7 @@ import "time"
 //
 // This variable is set at build time using the -X linker flag. If not set,
 // it defaults to "devel".
-var Version = "devel"
+var Version = "1.21.3-bt"
 
 // CookieName is the name of the cookie that Anubis uses in order to validate
 // access.

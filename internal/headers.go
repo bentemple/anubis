@@ -9,7 +9,6 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/bentemple/anubis"
 	"github.com/sebest/xff"
 )
 
@@ -28,10 +27,6 @@ var CGNat = netip.MustParsePrefix("100.64.0.0/10")
 // and only if the application is compiled in "release" mode by Docker.
 func UnchangingCache(next http.Handler) http.Handler {
 	//goland:noinspection GoBoolExpressions
-	if anubis.Version == "devel" {
-		return next
-	}
-
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Cache-Control", "public, max-age=31536000")
 		next.ServeHTTP(w, r)
