@@ -19,4 +19,4 @@ main
 # how does this get here
 doc/VERSION
 
-web/static/locales/*.json
+#web/static/locales/*.json
